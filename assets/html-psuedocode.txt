@@ -1,1 +1,57 @@
+HTML: Used for basic layout
 
+<!DOCTYPE HTML>
+<html>
+<head>
+  IMPORT the styling.css file
+  IMPORT libraries
+</head>
+
+
+<body>
+  IMPORT the script.js file
+
+
+  <DIV for header, id name would be header>
+    "H1" TAG with the text "TIC TAC TOE", STYLE the color of the text would be 50FFB1
+  </DIV for header>
+
+  <DIV for nav, id name would be nav>
+    "BUTTON" TAG with the text "reset", would have the id named "resetBut"
+  </DIV for nav>
+
+  <DIV for main, id name would be main>
+    <"TABLE" DIV, id name will be called "gameboard">
+      <table row 1>
+        <table data, class name would be cell, id name would be 0>" "</table data>
+        <table data, class name would be cell, id name would be 1>" "</table data>
+        <table data, class name would be cell, id name would be 2>" "</table data>
+      </table row 1>
+      <table row 2>
+        <table data, class name would be cell, id name would be 3>" "</table data>
+        <table data, class name would be cell, id name would be 4>" "</table data>
+        <table data, class name would be cell, id name would be 5>" "</table data>
+      </table row 2>
+      <table row 3>
+        <table data, class name would be cell, id name would be 6>" "</table data>
+        <table data, class name would be cell, id name would be 7>" "</table data>
+        <table data, class name would be cell, id name would be 8>" "</table data>
+      </table row 3>
+    </DIV for table>
+  </DIV for main>
+
+  <DIV for aside, id name would be aside>
+    "P" TAG with the text "X has won"
+    "P" TAG with the text "O has won"
+    //both of these tags will be hidden, but when a js function is used when X or O has won, then either P TAG would appear. create a JS function that would trigger these P TAGs to appear
+  </DIV for aside>
+
+  <DIV for footer, id name would be footer>
+    "A" TAG with a link to the "instructions" page
+    "A" TAG with a link to the "Credits" page
+    "P" TAG with text that says "Milestone Project 1 by Mary Imarenezor 2023"
+  </DIV for footer>
+</body>
+
+
+</html>
