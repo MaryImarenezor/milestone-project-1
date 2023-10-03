@@ -43,6 +43,7 @@ HTML: Used for basic layout
   <DIV for aside, id name would be aside>
     "P" TAG with the text "X has won"
     "P" TAG with the text "O has won"
+    "P" TAG with the text "It's a tie"
     //both of these tags will be hidden, but when a js function is used when X or O has won, then either P TAG would appear. create a JS function that would trigger these P TAGs to appear
   </DIV for aside>
 
