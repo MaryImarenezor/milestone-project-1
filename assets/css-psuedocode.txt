@@ -1,1 +1,31 @@
+CSS: Used for styling and UI Design
 
+
+body SELECTED {
+BACRGROUND COLOR set to 122C34
+FONT STYLE should be set to "Courier New"
+use FLEXBOX if needed
+}
+
+
+
+h1 tag SELECTED {
+  COLOR set to 50FFB1
+}
+button SELECTED {
+  PADDING should be set around the text of the button
+  COLOR WITH NO HOVER set to 50FFB1
+  COLOR WITH HOVER set to a lighter shade of 50FFB1
+  TEXT COLOR set to 112C34
+}
+
+gameboard SELECTED {
+  BORDER COLOR set to 224870
+}
+p tags in aside div SELECTED {
+  TEXT COLOR set to 50FFB1
+}
+
+footer SELECTED {
+  TEXT COLOR set to 50FFB1
+}
