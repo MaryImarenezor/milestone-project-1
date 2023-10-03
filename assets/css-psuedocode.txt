@@ -22,6 +22,9 @@ button SELECTED {
 gameboard SELECTED {
   BORDER COLOR set to 224870
 }
+cells SELECTED {
+  use the cursor: pointer method to make the cells clickable
+}
 p tags in aside div SELECTED {
   TEXT COLOR set to 50FFB1
 }
