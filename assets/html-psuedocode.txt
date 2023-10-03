@@ -23,19 +23,19 @@ HTML: Used for basic layout
   <DIV for main, id name would be main>
     <"TABLE" DIV, id name will be called "gameboard">
       <table row 1>
-        <table data, class name would be cell, id name would be 0>" "</table data>
-        <table data, class name would be cell, id name would be 1>" "</table data>
-        <table data, class name would be cell, id name would be 2>" "</table data>
+        <table data, class name would be cell, id name would be 0></table data>
+        <table data, class name would be cell, id name would be 1></table data>
+        <table data, class name would be cell, id name would be 2></table data>
       </table row 1>
       <table row 2>
-        <table data, class name would be cell, id name would be 3>" "</table data>
-        <table data, class name would be cell, id name would be 4>" "</table data>
-        <table data, class name would be cell, id name would be 5>" "</table data>
+        <table data, class name would be cell, id name would be 3></table data>
+        <table data, class name would be cell, id name would be 4></table data>
+        <table data, class name would be cell, id name would be 5></table data>
       </table row 2>
       <table row 3>
-        <table data, class name would be cell, id name would be 6>" "</table data>
-        <table data, class name would be cell, id name would be 7>" "</table data>
-        <table data, class name would be cell, id name would be 8>" "</table data>
+        <table data, class name would be cell, id name would be 6></table data>
+        <table data, class name would be cell, id name would be 7></table data>
+        <table data, class name would be cell, id name would be 8></table data>
       </table row 3>
     </DIV for table>
   </DIV for main>
