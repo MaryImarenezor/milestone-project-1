@@ -1,1 +1,44 @@
+JS: where users interact with the game and triggers functions
 
+QUERYSELECTORS will go here
+
+IF reset button is clicked
+  reset the gameboard
+ELSE
+  leave the contents of the gameboard
+
+
+///////////////GAMEBOARD NOTES//////////////
+There would be an empty array for the gameboard
+the current player would be x
+A BOOLEAN STATEMENT for it the game is active or not
+
+there would be an array set of arrays that would list out the winning conditions of the game
+  the contents inside the sub-arrays would be 3 numbers representing the index of the gameboard cells 
+  anything that does not fall within the array set would count as a tie
+
+when a cell is clicked on, a function would be called
+  function would be to update the gameboard and change the player
+
+check to see which player has won by using switch, case, and booleans
+//////////////////////////////////////////////
+
+IF X has won
+  trigger the playerXWin function
+ELSE IF O has won
+  trigger the playerOWin function
+ELSE
+  trigger the tieGame function
+
+playerXWIN function() {
+  IF player X wins
+    display P TAG with the text saying "X has won"
+}
+playerOWin function() {
+  IF player O wins
+    display P TAG with the text saying "O has won"
+}
+tieGame funciton() {
+  IF no players win
+    display P TAG with the text saying "It's a tie"
+}
