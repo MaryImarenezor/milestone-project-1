@@ -27,6 +27,8 @@ cells SELECTED {
 }
 p tags in aside div SELECTED {
   TEXT COLOR set to 50FFB1
+
+  call out a funciton that would set visibility: visible and set visibility: hidden in js
 }
 
 footer SELECTED {

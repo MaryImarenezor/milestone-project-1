@@ -11,7 +11,6 @@ ELSE
 ///////////////GAMEBOARD NOTES//////////////
 There would be an empty array for the gameboard
 the current player would be x
-A BOOLEAN STATEMENT for it the game is active or not
 
 there would be an array set of arrays that would list out the winning conditions of the game
   the contents inside the sub-arrays would be 3 numbers representing the index of the gameboard cells 

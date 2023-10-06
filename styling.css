@@ -1,1 +1,41 @@
+* {
+    background-color: #112c34;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color:#50ffb1;
+}
 
+
+h1 {
+    color: #50ffb1;
+}
+#resetBut {
+    padding: 10px 20px;
+    color:#112c34;
+    background-color: #50ffb1;
+}
+#resetBut:hover {
+    background-color: #aff5d5;
+    color:#59a0b6;
+
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+#gameboard {
+    width: 600px;
+    height: 600px;
+    border: solid 3px #224870;
+    display: flex;
+}
+.cell {
+    width: 200px;
+    height: 187px;
+    cursor: pointer;
+    border: solid 3px #224870;
+}
