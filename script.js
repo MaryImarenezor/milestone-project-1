@@ -7,7 +7,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
     const iconX = "X";
     let currentPlayer = iconX;
 
+    const resetButClicked = new Audio("assets/683098__florianreichelt__click.mp3")
+    const cellClicked = new Audio("assets/703884__matrixxx__diamond-click.wav")
+
     function handleCellClick(event) {
+        //MAIN FUNCTION
         const idSelected = parseInt(event.target.id);
 
         console.log("idSelected:", idSelected);
@@ -19,12 +23,15 @@ window.addEventListener("DOMContentLoaded", (event) => {
             currentPlayer = currentPlayer == iconX ? iconO : iconX;
         }
 
+        //SFX
+        cellClicked.play()
 
     }
 
     cells.forEach((cell) => cell.addEventListener("click", handleCellClick));
 
     resetBut.addEventListener("click", function () {
+        //MAIN FUNCTION
         boxes.fill(null);
 
         cells.forEach((e) => {
@@ -32,6 +39,9 @@ window.addEventListener("DOMContentLoaded", (event) => {
         });
 
         currentPlayer = iconX;
+
+        //SFX
+        resetButClicked.play()
     });
 
     
