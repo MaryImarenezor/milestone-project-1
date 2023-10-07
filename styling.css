@@ -13,11 +13,12 @@ h1 {
     padding: 10px 20px;
     color:#112c34;
     background-color: #50ffb1;
+    text-decoration: none;
 }
 #resetBut:hover {
     background-color: #aff5d5;
     color:#59a0b6;
-
+    text-decoration: none;
 }
 
 #main {
@@ -29,6 +30,7 @@ h1 {
 }
 #gameboard {
     width: 600px;
+    font-size: 100px;
     height: 600px;
     border: solid 3px #224870;
     display: flex;
