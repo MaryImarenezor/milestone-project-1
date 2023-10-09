@@ -1,7 +1,7 @@
 CSS: Used for styling and UI Design
 
 
-body SELECTED {
+everything SELECTED {
 BACRGROUND COLOR set to 122C34
 FONT STYLE should be set to "Courier New"
 use FLEXBOX if needed

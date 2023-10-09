@@ -19,25 +19,17 @@ there would be an array set of arrays that would list out the winning conditions
 when a cell is clicked on, a function would be called
   function would be to update the gameboard and change the player
 
-check to see which player has won by using switch, case, and booleans
 //////////////////////////////////////////////
 
-IF X has won
-  trigger the playerXWin function
-ELSE IF O has won
-  trigger the playerOWin function
-ELSE
-  trigger the tieGame function
+IF player has won
+  trigger the playerWin function
 
-playerXWIN function() {
-  IF player X wins
-    display P TAG with the text saying "X has won"
+ELSE
+  display P TAG with the text saying "It's a tie"
+
+
+playerWin function() {
+  IF player wins
+    display P TAG with the text saying "Player has won"
 }
-playerOWin function() {
-  IF player O wins
-    display P TAG with the text saying "O has won"
-}
-tieGame funciton() {
-  IF no players win
-    display P TAG with the text saying "It's a tie"
-}
+

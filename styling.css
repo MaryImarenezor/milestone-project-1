@@ -9,8 +9,10 @@
 h1 {
     color: #50ffb1;
 }
+button {
+    padding: 10px 20px;    
+}
 #resetBut {
-    padding: 10px 20px;
     color:#112c34;
     background-color: #50ffb1;
     text-decoration: none;
@@ -40,4 +42,11 @@ h1 {
     height: 187px;
     cursor: pointer;
     border: solid 3px #224870;
+}
+
+a {
+    color:#50ffb1
+}
+a:hover {
+    color:#b3ffdd
 }
