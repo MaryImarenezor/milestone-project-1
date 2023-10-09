@@ -4,7 +4,6 @@ HTML: Used for basic layout
 <html>
 <head>
   IMPORT the styling.css file
-  IMPORT libraries
 </head>
 
 
